@@ -1,0 +1,62 @@
+/* #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* background-color: whitesmoke; */
+}
+
+.tab {
+    /* background-color: whitesmoke; */
+    padding: 25px;
+    padding-bottom: 10px;
+}
+
+.tab:hover {
+    color: orange;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+#main {
+    /* background-color: whitesmoke; */
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 30px ;
+    padding: 16px;
+    font-size: large;
+}
+
+#flexWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: row;
+}
+
+.hero {
+    flex: 1;
+    color: hsl(45, 100%, 94%);
+    font-size: 65px;
+    text-align: center;
+    align-self: center;
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+}
+
+.red {
+    color: red;
+}
